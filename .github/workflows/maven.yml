@@ -29,3 +29,20 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+      
+    - name: Run tests
+      run: mvn test
+      
+    - name: Generate Code Coverage Report
+      run: mvn jacoco:report
+
+    - name: Package JAR
+      run: mvn package
+
+    - name: Upload JAR
+      uses: actions/upload-artifact@v3
+      with:
+        name: currency-conversion
+        path: target/*.jar
+
+      
