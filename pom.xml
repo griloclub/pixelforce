@@ -28,11 +28,14 @@
 		<testResources>
 			<testResource>
 				<directory>resources</directory>
+				<includes>
+        			<include>**/*</include>
+      			</includes>
 			</testResource>
 		</testResources>
 
 		<plugins>
-					<plugin>
+			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
 				<configuration>
 				<appendAssemblyId>false</appendAssemblyId>
