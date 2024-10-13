@@ -12,7 +12,7 @@ import model.exceptions.InvalidCurrencyException;
 import reader.CSVFileReader;
 
 public class CurrencyTest {
-	private static final String TEST_FILE = "resources/test.csv";
+	private static final String TEST_FILE = "./resources/test.csv";
 	private CSVFileReader file;
 	private CurrencyInfoFormat model;
 	private Currency currency;

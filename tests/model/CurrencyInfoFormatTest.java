@@ -10,7 +10,7 @@ import org.junit.Test;
 import reader.CSVFileReader;
 
 public class CurrencyInfoFormatTest {
-	private static final String TEST_FILE = "resources/test.csv";
+	private static final String TEST_FILE = "./resources/test.csv";
 	private Map<String, Money> infos;
 	private CSVFileReader file;
 	private CurrencyInfoFormat model;

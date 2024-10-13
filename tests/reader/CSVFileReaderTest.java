@@ -10,8 +10,8 @@ import reader.CSVFileReader;
 import reader.exceptions.QuotationNotFoundException;
 
 public class CSVFileReaderTest {
-	private static final String FILE_NOT_FOUND = "resources/filestest.csv";
-	private static final String TEST_FILE = "resources/test.csv";
+	private static final String FILE_NOT_FOUND = "./resources/filestest.csv";
+	private static final String TEST_FILE = "./resources/test.csv";
 	private CSVFileReader file;
 	private ModelFormat model;
 	

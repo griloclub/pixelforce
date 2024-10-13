@@ -15,7 +15,7 @@ import transform.exceptions.InvalidNumberException;
 
 public class CurrencyConverterTest {
 	private CurrencyConverter cc;
-	private static final String TEST_FILE = "resources/test.csv";
+	private static final String TEST_FILE = "./resources/test.csv";
 	private CSVFileReader file;
 	private CurrencyInfoFormat model;
 
