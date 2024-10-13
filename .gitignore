@@ -2,12 +2,6 @@
 /bin/
 *.class
 
-# generate data files
-*.csv
-*.dot
-*.json
-*.log
-
 # build system
 /build/
 /.gradle/
